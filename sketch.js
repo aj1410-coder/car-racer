@@ -14,17 +14,17 @@ var cars, car1, car2, car3, car4;
 var track, car1_img, car2_img, car3_img, car4_img;
 
 function preload(){
-    s=loadSound("sound/sliding.mp3")
-f2 = loadImage("sound/f1.png");
-  track = loadImage("image/track.jpg");
-  car1_img = loadImage("image/car1.png");
-  car2_img = loadImage("image/car2.png");
-  car3_img = loadImage("image/car3.png");
-  car4_img = loadImage("image/car4.png");
-  ground = loadImage("image/ground.png");
-  bronze_img = loadImage("image/bronze.png");
-  silver_img = loadImage("image/silver.png");
-  gold_img = loadImage("image/gold.png");
+    s=loadSound("./sound/sliding.mp3")
+f2 = loadImage("./sound/f1.png");
+  track = loadImage("./image/track.jpg");
+  car1_img = loadImage("./image/car1.png");
+  car2_img = loadImage("./image/car2.png");
+  car3_img = loadImage("./image/car3.png");
+  car4_img = loadImage("./image/car4.png");
+  ground = loadImage("./image/ground.png");
+  bronze_img = loadImage("./image/bronze.png");
+  silver_img = loadImage("./image/silver.png");
+  gold_img = loadImage("./image/gold.png");
 }
 
 function setup(){
